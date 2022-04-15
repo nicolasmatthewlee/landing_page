@@ -4,6 +4,7 @@
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 40px;
 }
 
 .brand {
@@ -22,7 +23,44 @@ a {
     text-decoration: none;
 }
 
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img {
+    width: 416px;
+    height: 200px;
+}
+
+.intro .left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.intro .left p {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    margin: 0px;
+}
+
+.intro .left button {
+    width: 80px;
+    height: 30px;
+}
+
+#tagline {
+    text-align: center;
+    margin: 0px;
+}
+
 img {
-    width:100px;
-    height:auto;
+    width:auto;
+    height:100px;
 }
