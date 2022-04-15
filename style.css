@@ -125,3 +125,19 @@ img {
     text-align: right;
     font-weight: 700;
 }
+
+.footer {
+    background-color: #f2f2f2;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
