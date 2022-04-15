@@ -126,6 +126,47 @@ img {
     font-weight: 700;
 }
 
+.signup {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup .container {
+    display: flex;
+    background-color: #1446A0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.signup .container .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup .container .text h3 {
+    margin: 0px;
+    color: white;
+}
+
+.signup .container .text p {
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+.signup .container button {
+    background-color: #1446A0;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    color: white;
+}
+
 .footer {
     background-color: #f2f2f2;
 }
